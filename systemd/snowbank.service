@@ -1,0 +1,7 @@
+[Unit]
+Description=Snowbank Service
+
+[Service]
+ExecStart=/usr/bin/python /home/jw/projects/snowbank/snowbank/main.py
+MemoryMax=512K
+MemoryHigh=256K
